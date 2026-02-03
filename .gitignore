@@ -13,6 +13,7 @@
 
 # Linker files
 *.ilk
+*.idb
 
 # Debugger Files
 *.pdb
@@ -21,10 +22,6 @@
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
@@ -37,5 +34,35 @@
 *.out
 *.app
 
-# debug information files
+# Debug information files
 *.dwo
+
+# Visual Studio specific
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+bin/
+build/
+
+# CMake files (optional if you use CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# SFML runtime DLLs (if copied locally)
+*.dll
+
+# Mac/other OS files
+.DS_Store
+Thumbs.db
